@@ -50,6 +50,9 @@ vTimerTask
 -Button
 -Image
 
+![image](https://github.com/user-attachments/assets/ae8f87b5-16bb-456c-8c4b-9e52446f5aed)
+![image](https://github.com/user-attachments/assets/d2dfdfb3-b49c-466e-bee7-0b624db608b1)
+
 
 ### Ажурирање на време (Tick Event)
 ```c
@@ -94,4 +97,7 @@ void Screen2View::stopTimer() {
 ### идеи за подобрување
 - Додавање на звук кога завршува сесија
 - Напредна статистика и визуализации за историја на фокусираност
+
+
+
 
