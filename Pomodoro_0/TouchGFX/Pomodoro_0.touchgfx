@@ -1,0 +1,530 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Screen1",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 480,
+            "Height": 272,
+            "RelativeFilename": "imax-poster-green-480x272.png"
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "minutes_inc",
+            "X": 10,
+            "Y": 10,
+            "Width": 50,
+            "Height": 50,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "IconButtonStyle",
+                "IconReleased": "__generated\\icon_theme_images_navigation_arrow_drop_up_50_50_000000.svg.png",
+                "IconPressed": "__generated\\icon_theme_images_navigation_arrow_drop_up_50_50_E8F6FB.svg.png"
+              },
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 50,
+                "Height": 50,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "ColorPressed": {
+                  "Red": 155,
+                  "Green": 157,
+                  "Blue": 158
+                }
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "minutes_dec",
+            "X": 120,
+            "Y": 10,
+            "Width": 50,
+            "Height": 50,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "IconButtonStyle",
+                "IconReleased": "__generated\\icon_theme_images_navigation_arrow_drop_down_50_50_000000.svg.png",
+                "IconPressed": "__generated\\icon_theme_images_navigation_arrow_drop_down_50_50_E8F6FB.svg.png"
+              },
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 50,
+                "Height": 50,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "ColorPressed": {
+                  "Red": 155,
+                  "Green": 157,
+                  "Blue": 158
+                }
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "sessions_inc",
+            "X": 310,
+            "Y": 10,
+            "Width": 50,
+            "Height": 50,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "IconButtonStyle",
+                "IconReleased": "__generated\\icon_theme_images_navigation_arrow_drop_up_50_50_000000.svg.png",
+                "IconPressed": "__generated\\icon_theme_images_navigation_arrow_drop_up_50_50_E8F6FB.svg.png"
+              },
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 50,
+                "Height": 50,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "ColorPressed": {
+                  "Red": 155,
+                  "Green": 157,
+                  "Blue": 158
+                }
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "sessions_dec",
+            "X": 420,
+            "Y": 10,
+            "Width": 50,
+            "Height": 50,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "IconButtonStyle",
+                "IconReleased": "__generated\\icon_theme_images_navigation_arrow_drop_down_50_50_000000.svg.png",
+                "IconPressed": "__generated\\icon_theme_images_navigation_arrow_drop_down_50_50_E8F6FB.svg.png"
+              },
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 50,
+                "Height": 50,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "ColorPressed": {
+                  "Red": 155,
+                  "Green": 157,
+                  "Blue": 158
+                }
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "minutes_set",
+            "X": 65,
+            "Y": 10,
+            "Width": 50,
+            "Height": 50,
+            "TextId": "__SingleUse_TDHS",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "TextId": "__SingleUse_W0S3",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "sessions_set",
+            "X": 365,
+            "Y": 10,
+            "Width": 50,
+            "Height": 50,
+            "TextId": "__SingleUse_ZHRF",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "TextId": "__SingleUse_ODQZ",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 15,
+            "Y": 60,
+            "Width": 149,
+            "Height": 49,
+            "TextId": "__SingleUse_BODE",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea3",
+            "X": 303,
+            "Y": 60,
+            "Width": 174,
+            "Height": 49,
+            "TextId": "__SingleUse_GHFH",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "start",
+            "X": 150,
+            "Y": 136,
+            "Width": 180,
+            "Height": 50,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "TextButtonStyle",
+                "TextId": "__SingleUse_B4EX",
+                "TextRotation": "0",
+                "ColorReleased": {
+                  "Red": 10,
+                  "Green": 10,
+                  "Blue": 10
+                },
+                "ColorPressed": {
+                  "Red": 10,
+                  "Green": 10,
+                  "Blue": 10
+                }
+              },
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 180,
+                "Height": 50,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "ColorPressed": {
+                  "Red": 155,
+                  "Green": 157,
+                  "Blue": 158
+                }
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "incMinutesInteraction",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "minutes_inc"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "incMinutes"
+            }
+          },
+          {
+            "InteractionName": "decMinutesInteraction",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "minutes_dec"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "decMinutes"
+            }
+          },
+          {
+            "InteractionName": "incSessionsInteraction",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "sessions_inc"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "incSessions"
+            }
+          },
+          {
+            "InteractionName": "decSessionsInteraction",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "sessions_dec"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "decSessions"
+            }
+          },
+          {
+            "InteractionName": "startTimerInteraction",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "start"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "startTimer"
+            }
+          },
+          {
+            "InteractionName": "changeScreenInteraction",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "start"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Screen2"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Screen2",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 480,
+            "Height": 272,
+            "RelativeFilename": "imax-poster-green-480x272.png"
+          },
+          {
+            "Type": "Circle",
+            "Name": "clockCircle",
+            "X": 160,
+            "Y": 56,
+            "Width": 160,
+            "Height": 160,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 80.0,
+            "CenterY": 80.0,
+            "Radius": 75.0,
+            "LineWidth": 5.0,
+            "EndAngle": 195.0,
+            "CapPrecision": "Round"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "minutes_left",
+            "X": 190,
+            "Y": 111,
+            "Width": 100,
+            "Height": 50,
+            "TextId": "__SingleUse_0U73",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_DFE3",
+              "UseBuffer": true,
+              "BufferSize": 10
+            },
+            "Wildcard2": {
+              "TextId": "__SingleUse_GRIV",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "stop",
+            "X": 120,
+            "Y": 216,
+            "Width": 240,
+            "Height": 48,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "TextButtonStyle",
+                "TextId": "__SingleUse_DMO7",
+                "TextRotation": "0",
+                "ColorReleased": {
+                  "Red": 10,
+                  "Green": 10,
+                  "Blue": 10
+                },
+                "ColorPressed": {
+                  "Red": 10,
+                  "Green": 10,
+                  "Blue": 10
+                }
+              },
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 240,
+                "Height": 48,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "ColorPressed": {
+                  "Red": 155,
+                  "Green": 157,
+                  "Blue": 158
+                }
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "study_break",
+            "X": 185,
+            "Y": 5,
+            "Width": 110,
+            "Height": 49,
+            "TextId": "__SingleUse_GEAN",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_PYMW",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "stopTimerInteraction",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "stop"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "stopTimer"
+            }
+          },
+          {
+            "InteractionName": "changeScreenInteraction",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "stop"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Screen1"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "Pomodoro_0",
+    "Resolution": {
+      "Width": 480,
+      "Height": 272
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "Screen1",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 480,
+        "Height": 272
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommandOverride": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommandOverride": "make -f ../gcc/Makefile flash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32H7",
+    "SubFamily": "STM32H750 Value line",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m7",
+    "ProjectFile": "../STM32H750B-DK.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": [
+      "CWRVector",
+      "VectorFonts",
+      "Video"
+    ]
+  },
+  "Version": "4.24.2",
+  "CreatedBy": "4.24.2"
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.24.2">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1" />
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_PYMW" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">Study</Translation>
+      </Text>
+      <Text Id="__SingleUse_GEAN" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_DMO7" Alignment="Center" TypographyId="Large">
+        <Translation Language="GB">Stop</Translation>
+      </Text>
+      <Text Id="__SingleUse_GRIV" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">00</Translation>
+      </Text>
+      <Text Id="__SingleUse_DFE3" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">00</Translation>
+      </Text>
+      <Text Id="__SingleUse_0U73" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">&lt;value&gt;:&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_B4EX" Alignment="Center" TypographyId="Large">
+        <Translation Language="GB">Start </Translation>
+      </Text>
+      <Text Id="__SingleUse_GHFH" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">Sessions</Translation>
+      </Text>
+      <Text Id="__SingleUse_BODE" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">Minutes</Translation>
+      </Text>
+      <Text Id="__SingleUse_ODQZ" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">2</Translation>
+      </Text>
+      <Text Id="__SingleUse_ZHRF" Alignment="Center" TypographyId="Large">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_W0S3" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">25</Translation>
+      </Text>
+      <Text Id="__SingleUse_TDHS" Alignment="Center" TypographyId="Large">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Large" Font="arialbd.ttf" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
+    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+  </Typographies>
+</TextDatabase>

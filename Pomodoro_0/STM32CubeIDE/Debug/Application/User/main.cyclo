@@ -1,0 +1,7 @@
+C:/TouchGFXProjects/Pomodoro_0/Core/Src/main.c:95:6:vUITask	1
+C:/TouchGFXProjects/Pomodoro_0/Core/Src/main.c:102:6:vTimerTask	18
+C:/TouchGFXProjects/Pomodoro_0/Core/Src/main.c:768:6:StartDefaultTask	1
+C:/TouchGFXProjects/Pomodoro_0/Core/Src/main.c:345:6:SystemClock_Config	2
+C:/TouchGFXProjects/Pomodoro_0/Core/Src/main.c:234:5:main	5
+C:/TouchGFXProjects/Pomodoro_0/Core/Src/main.c:862:6:HAL_TIM_PeriodElapsedCallback	2
+C:/TouchGFXProjects/Pomodoro_0/Core/Src/main.c:879:6:Error_Handler	1
